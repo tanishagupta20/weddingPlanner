@@ -1,0 +1,52 @@
+.top-nav-container{
+    background-color: black;
+    height : 3.5rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.chitkara-logo-div{
+    display: flex;
+    justify-content: center;
+}
+
+.chitkara-logo{
+    padding-left: 15px;
+    padding-top: 6px;
+}
+
+.register-hp{
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    z-index: 50;
+}
+
+.topnav-search-bar{
+    /* background-color: blueviolet; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-box{
+    /* background-color: aquamarine; */
+    height: 25px;
+    width : 19vw;
+    text-align: center;
+    letter-spacing: 1.3px;
+    font-size: 0.98rem;
+}
+
+.search-box:focus-within{
+    border: none;
+}
+
+.register-link{
+    text-decoration: none;
+    padding-right : 16px;
+    padding-top: 12px;
+    font-size: 1.3rem;
+    color : #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
