@@ -5,7 +5,7 @@ import { Link, BrowserRouter as Router } from 'react-router-dom'
 function Sidenav() {
     const [inactive, setInative] = useState(true)
 
-    const toggleSideNav = () => setInative(!inactive)
+    const toggleSideNav = () => setInative(!inactive)  
 
     const toggleNav = () => setInative(true)
 
